@@ -6,7 +6,7 @@
     "licensing": {
         "enforceLicense": "log"
     },
-    "description": "Scope Application Diagnostics POC",
+    "description": "Scope Application Diagnostics POC 3",
     "accessControls": {
         "runtimeAccessTracking": "enforcing"
     }

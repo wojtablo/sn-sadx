@@ -17,5 +17,15 @@ RestApi({
             enforceAcl: [],
             authentication: false,
         },
+        {
+            $id: Now.ID['0b07dd26c3733210a245d60d05013126'],
+            name: 'Load2',
+            consumes: 'application/json,application/xml,text/xml',
+            script: Now.include('./sys_ws_operation_0b07dd26c3733210a245d60d05013126.js'),
+            produces: 'application/json,application/xml,text/xml',
+            path: '/load2/{scope}',
+            enforceAcl: [],
+            authentication: false,
+        },
     ],
 })
